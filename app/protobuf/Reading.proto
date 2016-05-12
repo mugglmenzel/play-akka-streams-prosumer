@@ -1,0 +1,9 @@
+package com.mugglmenzel.iot.model;
+
+option java_package = "com.mugglmenzel.iot.model";
+option java_outer_classname = "ReadingProtos";
+
+message ReadingProto {
+    required string metricId = 1;
+    required int32 timestamp = 2;
+}
